@@ -1,2 +1,2 @@
-# Economia_y_Ciencia_de_los_Datos
+# Economia y Ciencia de los Datos
 Economía y cienca de datos
