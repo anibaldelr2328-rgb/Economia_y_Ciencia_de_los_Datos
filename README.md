@@ -1,5 +1,5 @@
-📊 Proyecto: API de Valoración Financiera Corporativa
-📝 I. Descripción del Proyecto
+# 📊 Proyecto: API de Valoración Financiera Corporativa
+## 📝 I. Descripción del Proyecto
 El proyecto tiene como objetivo principal el desarrollo de una API (Interfaz de Programación de Aplicaciones) para la valoración de empresas. Su enfoque es proveer una herramienta que garantice la consistencia y trazabilidad de los resultados. La API está diseñada para que analistas, inversionistas y fundadores puedan realizar un análisis riguroso de compañías que cotizan en bolsa, utilizando una metodología de valoración reconocida en el ámbito de las finanzas corporativas.
 
 La API se basará en los siguientes métodos de valoración financiera para ofrecer una herramienta integral de análisis:
@@ -12,7 +12,7 @@ Cálculo del WACC (Costo Promedio Ponderado de Capital): Un componente esencial 
 
 Análisis de Sensibilidad: Una funcionalidad que permite evaluar cómo la variación de variables clave afecta la valoración final, proporcionando una visión del riesgo y la robustez del resultado.
 
-📈 II. Datos Económicos a Analizar
+## 📈 II. Datos Económicos a Analizar
 Para garantizar una valoración completa y precisa, la API procesará y analizará los siguientes tipos de información:
 
 Estados Financieros Históricos: Datos de los últimos 5 a 10 años, incluyendo ingresos, costos, gastos operativos, EBITDA, impuestos, CapEx, variación del capital de trabajo, deuda y número de acciones.
@@ -27,7 +27,7 @@ Supuestos de Proyección: Expectativas futuras sobre crecimiento de ingresos, m�
 
 Datos de Comparables: Múltiplos de mercado como EV/EBITDA, P/E y EV/Sales de empresas similares.
 
-🛠️ III. Metodologías a Utilizar
+## 🛠️ III. Metodologías a Utilizar
 DCF (Discounted Cash Flow / Flujo de Caja Descontado): Es el método principal.
 
 Múltiplos Comparables: Un método de validación clave.
@@ -36,7 +36,7 @@ WACC (Weighted Average Cost of Capital): La herramienta calculará el costo prom
 
 Análisis de Sensibilidad: Esta funcionalidad permitirá a los usuarios evaluar cómo los cambios en variables críticas influyen en la valoración.
 
-⚙️ IV. Endpoints de la API
+## ⚙️ IV. Endpoints de la API
 Los endpoints se han estructurado para permitir a los usuarios obtener información relevante y ejecutar los análisis de valoración de manera secuencial y lógica.
 
 GET /companies/search: Permite encontrar empresas por nombre o ticker.
@@ -57,7 +57,7 @@ POST /valuation/dcf: Realiza la valoración completa de una empresa.
 
 POST /valuation/sensitivity: Muestra el impacto de las variaciones de las variables de entrada en el resultado final.
 
-🌐 V. Fuentes de Datos y APIs Externas
+## 🌐 V. Fuentes de Datos y APIs Externas
 Para asegurar la robustez del proyecto, la API se conectará a diversas fuentes de datos financieras y macroeconómicas.
 
 Financial Modeling Prep (FMP): Se utilizará para obtener estados financieros, múltiplos de valoración y datos históricos de betas.
